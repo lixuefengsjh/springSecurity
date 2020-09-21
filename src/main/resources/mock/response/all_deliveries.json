@@ -1,0 +1,99 @@
+{
+  "info":{
+    "status":"ok"
+  },
+  "deliveries":[
+    {
+      "date":"2014-02-13",
+      "address":"63 Ubi Avenue 1 Singapore 408937",
+      "delivery_time":"09:00 AM - 12:00 PM",
+      "deliver_to":"John Tan",
+      "phone":"+6591234567",
+      "notify_email":"john.tan@example.com",
+      "notify_url":"http://www.example.com/notify.php",
+      "assign_to":"GT1234H",
+      "instructions":"Call customer upon arrival.",
+      "zone":"East",
+      "reason":"",
+      "note":"Recipient commented that delivery is very prompt.",
+      "received_by":"John",
+      "image":1,
+      "view_image_url":"https://app.detrack.com/deliveries/photo/52cbaf87f92ea105a4000115.jpg",
+      "do":"DO140213001",
+      "status":"Delivered",
+      "time":"2014-02-13T09:30:45+08:00",
+      "pod_lat":1.32502083807714,
+      "pod_lng":103.893779271220,
+      "pod_address":"63 Ubi Avenue 1, Singapore 408937",
+      "items":[
+        {
+          "sku":"T0201",
+          "desc":"Test Item #01",
+          "qty":1,
+          "reject":0,
+          "reason":""
+        },
+        {
+          "sku":"T0202",
+          "desc":"Test Item #02",
+          "qty":5,
+          "reject":0,
+          "reason":""
+        },
+        {
+          "sku":"T0203",
+          "desc":"Test Item #03",
+          "qty":10,
+          "reject":0,
+          "reason":""
+        }
+      ]
+    },
+    {
+      "date":"2014-02-13",
+      "address":"59 Ubi Avenue 1 Singapore 408938",
+      "delivery_time":"02:00 PM - 05:30 PM",
+      "deliver_to":"Jane Lim",
+      "phone":"+6581234567",
+      "notify_email":"jane.lim@example.com",
+      "notify_url":"http://www.example.com/notify.php",
+      "assign_to":"GT1234H",
+      "instructions":"Change pass at security counter before proceeding to level 3.",
+      "zone":"East",
+      "reason":"",
+      "note":"",
+      "received_by":"",
+      "image":0,
+      "view_image_url":"",
+      "do":"DO140213002",
+      "status":"In Progress",
+      "time":"",
+      "pod_lat":"",
+      "pod_lng":"",
+      "pod_address":"",
+      "items":[
+        {
+          "sku":"T0211",
+          "desc":"Test Item #11",
+          "qty":1,
+          "reject":0,
+          "reason":""
+        },
+        {
+          "sku":"T0212",
+          "desc":"Test Item #12",
+          "qty":5,
+          "reject":0,
+          "reason":""
+        },
+        {
+          "sku":"T0213",
+          "desc":"Test Item #13",
+          "qty":10,
+          "reject":0,
+          "reason":""
+        }
+      ]
+    }
+  ]
+}
