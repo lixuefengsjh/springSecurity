@@ -45,6 +45,7 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                     .antMatchers("/login.html","/sms/login").permitAll()
                 .antMatchers("/user/adminA").hasAuthority("adminA")
+                .anyRequest().access("@myRdbcSwevice.havePression(authentication,req)")
                      .anyRequest().authenticated();
         SmsAuthenticationFilter smsFilter=new SmsAuthenticationFilter();
         smsFilter.setAuthenticationManager(authenticationManager());
