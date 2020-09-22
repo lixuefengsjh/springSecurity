@@ -39,7 +39,9 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
 
     @Bean
     public UserDetailsService getUserDetailsService(){
-        return new MyUserDetailsService();
+        MyUserDetailsService userDetailsService= new MyUserDetailsService();
+        userDetailsService.setPasswordEncoder(getPasswordEncoder());
+        return userDetailsService;
     }
     @Override
     public void configure(HttpSecurity http ) throws Exception {
