@@ -9,12 +9,13 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.stereotype.Service;
 import org.springframework.util.AntPathMatcher;
 
+import javax.servlet.http.HttpServletRequest;
+
 @Service("myRdbcSwevice")
 public class MyRdbcSwevice {
-
     private AntPathMatcher antPathMatcher=new AntPathMatcher();
-    public boolean havePression(Authentication authentication, HttpServerRequest req){
-        String url=req.getURI().toString();
+    public Boolean havePression(Authentication authentication, HttpServletRequest request){
+        String url=request.getRequestURI();
         Boolean flag=false;
         for(GrantedAuthority g: authentication.getAuthorities()){
             if(antPathMatcher.match(g.getAuthority(),url)){

@@ -10,6 +10,8 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
@@ -21,14 +23,18 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
     @Bean
+    PasswordEncoder getPasswordEncoder(){return new BCryptPasswordEncoder();};
+    @Bean
      AuthenticationSuccessHandler getAuthenticationSuccessHandler(){
         return new LoginAuthenticationSuccessHandler();
     }
     @Override
     public void configure(AuthenticationManagerBuilder builder) throws Exception {
+
         SmsAuthenticationProvider smsAuthenticationProvider=new SmsAuthenticationProvider();
         smsAuthenticationProvider.setUserDetailsService(getUserDetailsService());
         builder.authenticationProvider(smsAuthenticationProvider);
+        builder.userDetailsService(getUserDetailsService());
     }
 
     @Bean
@@ -39,14 +45,13 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
     public void configure(HttpSecurity http ) throws Exception {
         http.
                 formLogin()
-                   .loginPage("/login.html")
+                .loginProcessingUrl("/login")
+                .successHandler(getAuthenticationSuccessHandler())
                 .and()
             .csrf().disable()
                 .authorizeRequests()
-                    .antMatchers("/login.html","/sms/login").permitAll()
-                .antMatchers("/user/adminA").hasAuthority("adminA")
-                .anyRequest().access("@myRdbcSwevice.havePression(authentication,req)")
-                     .anyRequest().authenticated();
+                    .antMatchers("/login.html","/sms/login","/login").permitAll()
+                .anyRequest().access("@myRdbcSwevice.havePression(authentication,request)");
         SmsAuthenticationFilter smsFilter=new SmsAuthenticationFilter();
         smsFilter.setAuthenticationManager(authenticationManager());
         smsFilter.setAuthenticationSuccessHandler(getAuthenticationSuccessHandler());
