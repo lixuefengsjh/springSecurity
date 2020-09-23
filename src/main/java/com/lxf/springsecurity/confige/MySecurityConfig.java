@@ -4,6 +4,7 @@ import com.lxf.springsecurity.security.LoginAuthenticationSuccessHandler;
 import com.lxf.springsecurity.security.sms.MyUserDetailsService;
 import com.lxf.springsecurity.security.sms.SmsAuthenticationFilter;
 import com.lxf.springsecurity.security.sms.SmsAuthenticationProvider;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -14,6 +15,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
+import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+import org.springframework.security.web.session.SimpleRedirectSessionInformationExpiredStrategy;
+
+import javax.sql.DataSource;
 
 /**
  * @author: lxf
@@ -22,6 +28,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
  */
 @Configuration
 public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
+    @Autowired
+    private DataSource datasource;
     @Bean
     PasswordEncoder getPasswordEncoder(){return new BCryptPasswordEncoder();};
     @Bean
@@ -53,10 +61,27 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
             .csrf().disable()
                 .authorizeRequests()
                     .antMatchers("/login.html","/sms/login","/login").permitAll()
-                .anyRequest().access("@myRdbcSwevice.havePression(authentication,request)");
+                .anyRequest().access("@myRdbcSwevice.havePression(authentication,request)")
+                .and()
+                .rememberMe().userDetailsService(getUserDetailsService()).tokenRepository(getTokenRepository())
+                .and()
+                .logout()
+                .and()
+                .sessionManagement()
+                .invalidSessionUrl("/login.html")
+                .maximumSessions(1)
+                .expiredSessionStrategy(new SimpleRedirectSessionInformationExpiredStrategy("/login.html"))
+;
         SmsAuthenticationFilter smsFilter=new SmsAuthenticationFilter();
         smsFilter.setAuthenticationManager(authenticationManager());
         smsFilter.setAuthenticationSuccessHandler(getAuthenticationSuccessHandler());
         http.addFilterBefore(smsFilter, UsernamePasswordAuthenticationFilter.class);
+    }
+    @Bean
+    public PersistentTokenRepository getTokenRepository() {
+        JdbcTokenRepositoryImpl jdbcTokenRepositoryImpl =new JdbcTokenRepositoryImpl();
+       // jdbcTokenRepositoryImpl.setCreateTableOnStartup(true);
+        jdbcTokenRepositoryImpl.setDataSource(datasource);
+        return jdbcTokenRepositoryImpl;
     }
 }
