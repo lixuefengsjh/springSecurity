@@ -7,8 +7,10 @@ import com.lxf.springsecurity.security.sms.SmsAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -27,6 +29,8 @@ import javax.sql.DataSource;
  * @description: 安全相关的配置
  */
 @Configuration
+@EnableWebSecurity
+@Order(1)
 public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
     @Autowired
     private DataSource datasource;
@@ -60,7 +64,7 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
                 .and()
             .csrf().disable()
                 .authorizeRequests()
-                    .antMatchers("/login.html","/sms/login","/login").permitAll()
+                    .antMatchers("/login.html","/sms/login","/login","/oauth/**").permitAll()
                 .anyRequest().access("@myRdbcSwevice.havePression(authentication,request)")
                 .and()
                 .rememberMe().userDetailsService(getUserDetailsService()).tokenRepository(getTokenRepository())

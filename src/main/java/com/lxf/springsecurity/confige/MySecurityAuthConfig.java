@@ -6,6 +6,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
+import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 
 /**
  * @author: lxf
@@ -23,7 +24,14 @@ public class MySecurityAuthConfig extends AuthorizationServerConfigurerAdapter {
                 .withClient("client-01")
                 .autoApprove(false)
                 .secret(passwordEncoder.encode("123456"))
+                .scopes("all")
                 .authorizedGrantTypes("authorization_code")
                 .redirectUris("https://www.baidu.com/");
+    }
+    @Override
+    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+        security.tokenKeyAccess("permitAll()")
+                .checkTokenAccess("isAuthenticated()")
+                .allowFormAuthenticationForClients();
     }
 }
