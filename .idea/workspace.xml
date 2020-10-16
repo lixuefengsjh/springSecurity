@@ -2,51 +2,287 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f250b4f2-9456-4c2f-bd4f-8809de3d1946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/confige/MySecurityAuthConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_6_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_uuid_java_uuid_generator_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_api_model_shared_impl_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_api_process_model_impl_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_api_process_runtime_impl_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_api_runtime_shared_impl_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_api_task_model_impl_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_api_task_runtime_impl_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_app_process_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_process_extensions_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_resource_loader_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_api_activiti_api_model_shared_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_api_activiti_api_process_model_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_api_activiti_api_process_runtime_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_api_activiti_api_runtime_shared_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_api_activiti_api_task_model_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_api_activiti_api_task_runtime_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_common_util_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_connector_model_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_project_model_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_application_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_connector_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_identity_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_project_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_resource_finder_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_security_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_core_common_activiti_spring_security_policies_7_1_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info/log-info-2020-10-16-17-17.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info/log-info-2020-10-16-17-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info/log-info-2020-10-16-17-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log_debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/activitiListner/MyLeaderAssigee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/activitiListner/TestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysDictType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysRoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysUserPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/entity/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/fincalReportProcess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/fincalReportProcessbpmn.bpmn20.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/leaveProcess.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/leaveProcess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/fly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/layui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/mayun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/userface1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/userface2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/userface3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/userface4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/userface5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/images/wechat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/js/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/js/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/js/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/js/cacheUserInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/images.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/linkList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/linkLogo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/navs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/newsImg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/newsList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/systemParameter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/userGrade.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/userList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/json/userface.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/doc/addressDoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/doc/bodyTabDoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/doc/navDoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/img/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/img/images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/news/newsAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/news/newsAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/news/newsList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/news/newsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/basicParameter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/basicParameter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/linkList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/linkList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/linksAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/logs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/systemSetting/logs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/changePwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userGrade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuicms2.0/page/user/userList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/confige/MySecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/confige/MySecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/confige/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/confige/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/security/sms/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/security/sms/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/service/MyRdbcSwevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/service/MyRdbcSwevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lxf/springsecurity/SpringsecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lxf/springsecurity/SpringsecurityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/confige/MySecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/confige/MySecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/confige/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/confige/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/security/sms/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lxf/springsecurity/security/sms/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lxf/springsecurity/SpringsecurityApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lxf/springsecurity/SpringsecurityApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +294,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="BpmnFile" />
         <option value="Class" />
       </list>
     </option>
@@ -75,8 +312,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1hniZqDuaeYY5u2HlOFGQK9yu7t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -85,11 +325,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\allproject\demo\springSecurity\src\main\resources\static" />
+      <recent name="D:\work\allproject\demo\springSecurity\src\main\java\com\lxf\springsecurity\entity" />
       <recent name="D:\work\springSecurity\springsecurity\src\main\resources" />
       <recent name="D:\work\springSecurity\springsecurity\src\main\java\com\lxf\springsecurity" />
     </key>
@@ -106,7 +348,87 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringsecurityApplication">
+    <configuration name="SpringsecurityApplicationTests.deploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.springsecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.springsecurity" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.springsecurity.SpringsecurityApplicationTests" />
+      <option name="METHOD_NAME" value="deploy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringsecurityApplicationTests.excuteTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.springsecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.springsecurity" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.springsecurity.SpringsecurityApplicationTests" />
+      <option name="METHOD_NAME" value="excuteTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringsecurityApplicationTests.iscomplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.springsecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.springsecurity" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.springsecurity.SpringsecurityApplicationTests" />
+      <option name="METHOD_NAME" value="iscomplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringsecurityApplicationTests.queryTasker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.springsecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.springsecurity" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.springsecurity.SpringsecurityApplicationTests" />
+      <option name="METHOD_NAME" value="queryTasker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringsecurityApplicationTests.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.springsecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.springsecurity" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.springsecurity.SpringsecurityApplicationTests" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringsecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springsecurity" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxf.springsecurity.SpringsecurityApplication" />
@@ -114,6 +436,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringsecurityApplicationTests.queryTasker" />
+        <item itemvalue="JUnit.SpringsecurityApplicationTests.excuteTask" />
+        <item itemvalue="JUnit.SpringsecurityApplicationTests.start" />
+        <item itemvalue="JUnit.SpringsecurityApplicationTests.iscomplate" />
+        <item itemvalue="JUnit.SpringsecurityApplicationTests.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,6 +464,28 @@
       <workItem from="1600735491919" duration="2740000" />
       <workItem from="1600756880183" duration="11726000" />
       <workItem from="1600822050364" duration="18171000" />
+      <workItem from="1600908648045" duration="20610000" />
+      <workItem from="1600995957669" duration="6546000" />
+      <workItem from="1601033741284" duration="257000" />
+      <workItem from="1601034539756" duration="591000" />
+      <workItem from="1601083710069" duration="6136000" />
+      <workItem from="1601167603852" duration="6451000" />
+      <workItem from="1601254440476" duration="9616000" />
+      <workItem from="1601279893453" duration="878000" />
+      <workItem from="1601340920914" duration="2331000" />
+      <workItem from="1601346530517" duration="4687000" />
+      <workItem from="1601361309050" duration="521000" />
+      <workItem from="1601361905139" duration="9030000" />
+      <workItem from="1601435083029" duration="1197000" />
+      <workItem from="1602230222294" duration="4986000" />
+      <workItem from="1602293267077" duration="1829000" />
+      <workItem from="1602464672546" duration="586000" />
+      <workItem from="1602470865387" duration="3654000" />
+      <workItem from="1602550769823" duration="1296000" />
+      <workItem from="1602556909107" duration="8364000" />
+      <workItem from="1602637354194" duration="13859000" />
+      <workItem from="1602723114013" duration="3192000" />
+      <workItem from="1602809841844" duration="21970000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1600764942446</created>
@@ -172,6 +528,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="代码提交" />
     <MESSAGE value="代码提交,解决passwoderEncode问题" />
     <option name="LAST_COMMIT_MESSAGE" value="代码提交,解决passwoderEncode问题" />
@@ -193,6 +550,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/security/sms/SmsAuthenticationFilter.java</url>
           <line>29</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.class</url>
+          <line>78</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/service/MyRdbcSwevice.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/controller/UserController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lxf/springsecurity/activitiListner/TestFilter.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

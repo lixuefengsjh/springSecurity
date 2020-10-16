@@ -64,7 +64,9 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
                 .and()
             .csrf().disable()
                 .authorizeRequests()
-                    .antMatchers("/login.html","/sms/login","/login","/oauth/**").permitAll()
+                    .antMatchers("/v2/api-docs", "/swagger-resources/configuration/ui",
+                            "/swagger-resources", "/swagger-resources/configuration/security",
+                            "/swagger-ui.html", "/webjars/**","/login.html","/sms/login","/login","/oauth/**","/layuicms2.0/**").permitAll()
                 .anyRequest().access("@myRdbcSwevice.havePression(authentication,request)")
                 .and()
                 .rememberMe().userDetailsService(getUserDetailsService()).tokenRepository(getTokenRepository())

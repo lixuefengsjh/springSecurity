@@ -19,7 +19,7 @@ public class MyUserDetailsService implements UserDetailsService {
     //注入dao,通过数据库返回数据
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        User u=new User("lxf",passwordEncoder.encode("lxf--test"), AuthorityUtils.createAuthorityList("/user/adminA","adminB"));
+        User u=new User("lxf",passwordEncoder.encode("lxf--test"), AuthorityUtils.createAuthorityList("/user/adminA","/user/adminB"));
         return u;
     }
 
