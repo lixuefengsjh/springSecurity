@@ -22,7 +22,11 @@ layui.use(['form','layer','jquery'],function(){
     $(".loginBody .input-item").click(function(e){
         e.stopPropagation();
         $(this).addClass("layui-input-focus").find(".layui-input").focus();
-    })
+    });
+    //验证码点击切换功能
+    $("imgCode>img").click(function(){
+        $(this).setAttribute("src","/getPicValid&timestamp="+new Date().getTime())
+    });
     $(".loginBody .layui-form-item .layui-input").focus(function(){
         $(this).parent().addClass("layui-input-focus");
     })

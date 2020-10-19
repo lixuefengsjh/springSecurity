@@ -54,4 +54,7 @@ public class UserController {
 
         return  SystemResponse.ok("adminB-------aceess");
     }
+    public void getPicValid(HttpServletRequest req,HttpServletResponse resp){
+
+    }
 }
