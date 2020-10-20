@@ -2,6 +2,7 @@ package com.lxf.springsecurity.confige;
 
 import com.lxf.springsecurity.security.LoginAuthenticationSuccessHandler;
 import com.lxf.springsecurity.security.sms.MyUserDetailsService;
+import com.lxf.springsecurity.security.sms.PicValidFilter;
 import com.lxf.springsecurity.security.sms.SmsAuthenticationFilter;
 import com.lxf.springsecurity.security.sms.SmsAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -66,7 +67,7 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                     .antMatchers("/v2/api-docs", "/swagger-resources/configuration/ui",
                             "/swagger-resources", "/swagger-resources/configuration/security",
-                            "/swagger-ui.html", "/webjars/**","/login.html","/sms/login","/login","/oauth/**","/layuicms2.0/**").permitAll()
+                            "/swagger-ui.html", "/webjars/**","/login.html","/sms/login","/login","/oauth/**","/layuicms2.0/**","/user/**").permitAll()
                 .anyRequest().access("@myRdbcSwevice.havePression(authentication,request)")
                 .and()
                 .rememberMe().userDetailsService(getUserDetailsService()).tokenRepository(getTokenRepository())
@@ -78,10 +79,12 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
                 .maximumSessions(1)
                 .expiredSessionStrategy(new SimpleRedirectSessionInformationExpiredStrategy("/login.html"))
 ;
+        PicValidFilter picValidFilter=new PicValidFilter();
         SmsAuthenticationFilter smsFilter=new SmsAuthenticationFilter();
         smsFilter.setAuthenticationManager(authenticationManager());
         smsFilter.setAuthenticationSuccessHandler(getAuthenticationSuccessHandler());
         http.addFilterBefore(smsFilter, UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(picValidFilter,SmsAuthenticationFilter.class);
     }
     @Bean
     public PersistentTokenRepository getTokenRepository() {
